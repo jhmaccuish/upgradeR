@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526233706432.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3F194222",
+    "lastKnownWriteTime" : 4294967295,
+    "last_content_update" : 1526233706432,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AC891CE",
+        "caption" : "Mroz87",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Mroz87&cache_key=AC891CE",
+        "displayedObservations" : "753",
+        "environment" : "",
+        "object" : "Mroz87",
+        "preview" : "0",
+        "totalObservations" : "753",
+        "variables" : "23"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

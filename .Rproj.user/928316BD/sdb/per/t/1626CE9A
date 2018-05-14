@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Greene( 2003 ): example 22.8, page 786\nrm(list=ls()) # this clears the data space (clear all in Matlab)\n\n\nlibrary(sampleSelection)\n\n## Greene( 2003 ): example 22.8, page 786\ndata( Mroz87 )\nMroz87$kids  <- ( Mroz87$kids5 + Mroz87$kids618 > 0 )\n# ML estimatio\nm <- selection( lfp ~ age + I( age^2 ) + faminc + kids + educ,\n                wage ~ exper + I( exper^2 ) + educ + city, Mroz87 )\nMroz87$fitted <- predict( m )\n\n\n\ndata( Mroz87 )\n#mroz87 =  read.table( \"http://www.montana.edu/ebelasco/ecns562/homework/mroz87.dat\", header = T) \nMroz87$kids  <- ( Mroz87$kids5 + Mroz87$kids618 > 0 )\n# Two-step estimation\nsummary( heckit( lfp ~ age + I( age^2 ) + faminc + kids + educ,\n                 wage ~ exper + I( exper^2 ) + educ + city, Mroz87 ) )\n# ML estimation\nsummary( selection( lfp ~ age + I( age^2 ) + faminc + kids + educ,\n                    wage ~ exper + I( exper^2 ) + educ + city, Mroz87 ))",
+    "created" : 1526226457216.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3184755619",
+    "id" : "1626CE9A",
+    "lastKnownWriteTime" : 1526230402,
+    "last_content_update" : 1526230402868,
+    "path" : "~/Dropbox/SourceCode/upgradeProject/R/scratch.R",
+    "project_path" : "scratch.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

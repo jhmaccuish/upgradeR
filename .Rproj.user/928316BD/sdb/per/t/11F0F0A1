@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "install.packages(\"plyr\")\n\ninstall.packages(\"haven\")\n\ninstall.packages(\"dplyr\")\n\ninstall.packages(\"sfsmisc\")\n\n#install.packages(\"systemfit\")\ninstall.packages(\"sampleSelection\")\n\ninstall.packages(\"np\") \n# you need to install the package \"np\" to use nonparametric \n# estimation commands written by Li and Racine.\n",
+    "created" : 1525698995011.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1366775657",
+    "id" : "11F0F0A1",
+    "lastKnownWriteTime" : 1526030156,
+    "last_content_update" : 1526226451817,
+    "path" : "~/Dropbox/SourceCode/upgradeProject/R/usedPackages.R",
+    "project_path" : "usedPackages.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
